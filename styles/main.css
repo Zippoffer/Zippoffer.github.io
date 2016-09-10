@@ -1,0 +1,214 @@
+body {
+	/*width: 700px;*/
+	background-color: wheat;
+	/*background-image: url("http://wallpapersrang.com/wp-content/uploads/2016/06/binary-hd-cyan-computer-wallpapers-desktop-backgro.png")*/
+}
+
+#logos	{
+	display: inline-block;
+	margin-top: 2%;
+	position: relative;
+	top: 840px;
+	left: 340px;
+}
+
+li	{
+	padding: 2%;
+}
+
+#photo {
+	width: 260px;
+}
+#modal1 {
+	background-color: wheat;
+}
+#top {
+width: 500px;
+height: 100%;
+background: none;
+}
+
+#par {
+	height: 104%;
+	width: 200px;
+}
+#middle {
+	/*padding-left: 12%;
+	width: 800px;
+	position: relative;
+	left: 400px;
+	background: none;*/
+}
+#me {
+	height: 600px;
+	width: 500px;
+	margin-bottom: 6%;
+}
+nav {
+	/*margin-bottom: 1%;*/
+	background-color: olive;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#156b1f+20,44af23+71,44af23+71,136313+74&0+12,0.8+15,1+33,1+33,1+70,0.8+88,0+93 */
+/*background: -moz-linear-gradient(top,  rgba(21,107,31,0) 12%, rgba(21,107,31,0.8) 15%, rgba(21,107,31,0.86) 20%, rgba(33,124,32,1) 33%, rgba(67,174,35,1) 70%, rgba(68,175,35,0.99) 71%, rgba(19,99,19,0.96) 74%, rgba(19,99,19,0.8) 88%, rgba(19,99,19,0) 93%); /* FF3.6-15 */*/
+/*background: -webkit-linear-gradient(top,  rgba(21,107,31,0) 12%,rgba(21,107,31,0.8) 15%,rgba(21,107,31,0.86) 20%,rgba(33,124,32,1) 33%,rgba(67,174,35,1) 70%,rgba(68,175,35,0.99) 71%,rgba(19,99,19,0.96) 74%,rgba(19,99,19,0.8) 88%,rgba(19,99,19,0) 93%); /* Chrome10-25,Safari5.1-6 */*/
+/*background: linear-gradient(to bottom,  rgba(21,107,31,0) 12%,rgba(21,107,31,0.8) 15%,rgba(21,107,31,0.86) 20%,rgba(33,124,32,1) 33%,rgba(67,174,35,1) 70%,rgba(68,175,35,0.99) 71%,rgba(19,99,19,0.96) 74%,rgba(19,99,19,0.8) 88%,rgba(19,99,19,0) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00156b1f', endColorstr='#00136313',GradientType=0 ); /* IE6-9 */*/
+
+}
+
+#skills {
+	background-color: beige;
+	/*background-image: url(http://www.publicdomainpictures.net/pictures/50000/velka/green-textile-background-1371017125Coe.jpg);*/
+	/*background-image: url(https://c1.staticflickr.com/5/4022/4289809947_06ffd6b30b_b.jpg);*/
+	/*background-image: url(https://c1.staticflickr.com/9/8502/8413962190_cd5535351b_b.jpg);*/
+	/*background-image: url(http://www.publicdomainpictures.net/pictures/160000/nahled/arriere-plan-vert-texture.jpg);*/
+	padding-left: 8%;
+	/*width: 100%;*/
+/*	width: 580px;
+	height: 580px;*/
+	border-radius: 200%;
+	position: relative;
+	top: -60px;
+	border: 6px double lightblue;
+	/*opacity: .7;*/
+	 content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+}
+.brand-logo {
+	margin-left: 3%;
+}
+
+/*kjh*/
+/* entire container, keeps perspective */
+
+
+/*#skills {
+	width: 580px;
+	height: 580px;
+	border-radius: 200%;
+}*/
+/*img {
+	height: 50px;
+	width: 50px;
+}*/
+/*#angular {
+	position: relative;
+	top: 50px;
+	left: 20px;
+	height: 50px;
+	width: 50px;
+}
+#bower {
+	position: relative;
+	top: 50px;
+	right: 40px;
+	height: 50px;
+	width: 50px;
+}
+#browserify {
+	position: relative;
+	top: 90px;
+	right: 70px;
+	height: 50px;
+	width: 50px;
+}
+#css {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	height: 50px;
+	width: 50px;
+}
+#firebase {
+	position: relative;
+	top: 250px;
+	right: 200px;
+	height: 50px;
+	width: 50px;
+}
+#github {
+	position: relative;
+	top: 330px;
+	left: 150px;
+	height: 50px;
+	width: 50px;
+}
+#gulp {
+	position: relative;
+	top: 40px;
+	height: 50px;
+	width: 50px;
+}
+#html {
+	position: relative;
+	top: 140px;
+	left: 130px;
+	height: 50px;
+	width: 50px;
+}
+#jquery {
+	position: relative;
+	top: 270px;
+	right: 290px;
+	height: 50px;
+	width: 50px;
+}
+#js {
+	position: relative;
+	top: 100px;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+}
+#mocha {
+	position: relative;
+	top: 250px;
+	left: 10px;
+	height: 50px;
+	width: 50px;
+}
+#git {
+	position: relative;
+	top: 280px;
+	right: 12px;
+	height: 50px;
+	width: 50px;
+}
+#npm {
+	position: relative;
+	top: 310px;
+	left: 32px;
+	height: 50px;
+	width: 50px;
+}
+#node {
+	position: relative;
+	top: 340px;
+	left: 40px;
+	height: 50px;
+	width: 50px;
+}*/
+#modal {
+	height: 400px;
+	width: 400px;
+	border-radius: 200%;
+	position: relative;
+	top: 430px;
+	left: 440px;
+}
+#modalImage {
+	height: 400px;
+	width: 400px;
+	border-radius: 200%;
+	position: relative;
+	right: 30px;
+}
+#modal1 {
+	height: 400px;
+	width: 400px;
+	border-radius: 200%;
+	text-align: center;
+}
+/*kjh*/
