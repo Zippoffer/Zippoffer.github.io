@@ -18,6 +18,19 @@ li {
 	font-family: slackey;
 	font-size: 2vw;
 }
+span {
+	display: inline;
+	/*text-align: center;*/
+}
+#herokuapp {
+	box-shadow: 8px 12px 32px black;
+}
+#comicapp {
+	box-shadow: 8px 12px 32px black;
+}
+#barwars {
+	box-shadow: 8px 12px 32px black;
+}
 /*#photo {
 	width: 260px;
 }*/
@@ -80,8 +93,8 @@ nav {
 #modal1 {
 
 	background-color: wheat;
-	height: 400px;
-	width: 400px;
+	height: 500px;
+	width: 500px;
 	border-radius: 200%;
 	text-align: center;
 }
@@ -91,134 +104,5 @@ nav {
 
 
 
-#skills {
-	/*background-color: beige;*/
-	/*background-image: url(http://www.publicdomainpictures.net/pictures/50000/velka/green-textile-background-1371017125Coe.jpg);*/
-	/*background-image: url(https://c1.staticflickr.com/5/4022/4289809947_06ffd6b30b_b.jpg);*/
-	/*background-image: url(https://c1.staticflickr.com/9/8502/8413962190_cd5535351b_b.jpg);*/
-	/*background-image: url(http://www.publicdomainpictures.net/pictures/160000/nahled/arriere-plan-vert-texture.jpg);*/
-	/*padding-left: 8%;*/
-	/*width: 100%;*/
-/*	width: 580px;
-	height: 580px;*/
-	/*border-radius: 200%;*/
-/*	position: relative;
-	top: -60px;*/
-	/*border: 6px double lightblue;*/
-/*	 content: "";
-    display: block;
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;*/
-}
-/*kjh*/
-/*kjh*/
-/* entire container, keeps perspective */
 
 
-/*#skills {
-	width: 580px;
-	height: 580px;
-	border-radius: 200%;
-}*/
-/*img {
-	height: 50px;
-	width: 50px;
-}*/
-/*#angular {
-	position: relative;
-	top: 50px;
-	left: 20px;
-	height: 50px;
-	width: 50px;
-}
-#bower {
-	position: relative;
-	top: 50px;
-	right: 40px;
-	height: 50px;
-	width: 50px;
-}
-#browserify {
-	position: relative;
-	top: 90px;
-	right: 70px;
-	height: 50px;
-	width: 50px;
-}
-#css {
-	position: relative;
-	top: 20px;
-	left: 20px;
-	height: 50px;
-	width: 50px;
-}
-#firebase {
-	position: relative;
-	top: 250px;
-	right: 200px;
-	height: 50px;
-	width: 50px;
-}
-#github {
-	position: relative;
-	top: 330px;
-	left: 150px;
-	height: 50px;
-	width: 50px;
-}
-#gulp {
-	position: relative;
-	top: 40px;
-	height: 50px;
-	width: 50px;
-}
-#html {
-	position: relative;
-	top: 140px;
-	left: 130px;
-	height: 50px;
-	width: 50px;
-}
-#jquery {
-	position: relative;
-	top: 270px;
-	right: 290px;
-	height: 50px;
-	width: 50px;
-}
-#js {
-	position: relative;
-	top: 100px;
-	right: 30px;
-	height: 50px;
-	width: 50px;
-}
-#mocha {
-	position: relative;
-	top: 250px;
-	left: 10px;
-	height: 50px;
-	width: 50px;
-}
-#git {
-	position: relative;
-	top: 280px;
-	right: 12px;
-	height: 50px;
-	width: 50px;
-}
-#npm {
-	position: relative;
-	top: 310px;
-	left: 32px;
-	height: 50px;
-	width: 50px;
-}
-#node {
-	position: relative;
-	top: 340px;
-	left: 40px;
-	height: 50px;
-	width: 50px;
-}*/
