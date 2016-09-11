@@ -1,85 +1,117 @@
 body {
 	/*width: 700px;*/
-	background-color: wheat;
+	background-color: #F5AA5D;
 	/*background-image: url("http://wallpapersrang.com/wp-content/uploads/2016/06/binary-hd-cyan-computer-wallpapers-desktop-backgro.png")*/
 }
 
 #logos	{
 	display: inline-block;
-	margin-top: 2%;
-	position: relative;
-	top: 840px;
-	left: 340px;
+	padding-top: 2%;
 }
 
-li	{
-	padding: 2%;
+li {
+	padding-left: 100px;
+	padding-top: 12%;
 }
 
-#photo {
+.logo {
+	font-family: slackey;
+	font-size: 2vw;
+}
+/*#photo {
 	width: 260px;
-}
-#modal1 {
-	background-color: wheat;
-}
-#top {
+}*/
+
+/*#top {
 width: 500px;
 height: 100%;
 background: none;
-}
+}*/
 
-#par {
-	height: 104%;
-	width: 200px;
-}
-#middle {
-	/*padding-left: 12%;
+/*#par {
+	height: 80px;
+	width: 100%;
+}*/
+
+/*#middle {
+	padding-left: 12%;
 	width: 800px;
 	position: relative;
 	left: 400px;
-	background: none;*/
-}
-#me {
+	background: none;
+}*/
+
+/*#me {
 	height: 600px;
 	width: 500px;
 	margin-bottom: 6%;
-}
+}*/
 nav {
-	/*margin-bottom: 1%;*/
 	background-color: olive;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#156b1f+20,44af23+71,44af23+71,136313+74&0+12,0.8+15,1+33,1+33,1+70,0.8+88,0+93 */
-/*background: -moz-linear-gradient(top,  rgba(21,107,31,0) 12%, rgba(21,107,31,0.8) 15%, rgba(21,107,31,0.86) 20%, rgba(33,124,32,1) 33%, rgba(67,174,35,1) 70%, rgba(68,175,35,0.99) 71%, rgba(19,99,19,0.96) 74%, rgba(19,99,19,0.8) 88%, rgba(19,99,19,0) 93%); /* FF3.6-15 */*/
-/*background: -webkit-linear-gradient(top,  rgba(21,107,31,0) 12%,rgba(21,107,31,0.8) 15%,rgba(21,107,31,0.86) 20%,rgba(33,124,32,1) 33%,rgba(67,174,35,1) 70%,rgba(68,175,35,0.99) 71%,rgba(19,99,19,0.96) 74%,rgba(19,99,19,0.8) 88%,rgba(19,99,19,0) 93%); /* Chrome10-25,Safari5.1-6 */*/
-/*background: linear-gradient(to bottom,  rgba(21,107,31,0) 12%,rgba(21,107,31,0.8) 15%,rgba(21,107,31,0.86) 20%,rgba(33,124,32,1) 33%,rgba(67,174,35,1) 70%,rgba(68,175,35,0.99) 71%,rgba(19,99,19,0.96) 74%,rgba(19,99,19,0.8) 88%,rgba(19,99,19,0) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00156b1f', endColorstr='#00136313',GradientType=0 ); /* IE6-9 */*/
-
+	/*background: none;*/
 }
+
+.brand-logo {
+	position: relative;
+	top: -120px;
+	margin-left: 3%;
+}
+
+#modal {
+	margin: 4% 0 4% 33%;
+	/*height: 400px;*/
+	height: 350px;
+	width: 350px;
+	/*width: 400px;*/
+	border-radius: 200%;
+/*	position: relative;
+	top: 70px;
+	left: 440px;*/
+}
+#modalImage {
+
+	height: 400px;
+	width: 350px;
+	border-radius: 200%;
+	position: relative;
+	right: 30px;
+	bottom: 22px;
+}
+#modal1 {
+
+	background-color: wheat;
+	height: 400px;
+	width: 400px;
+	border-radius: 200%;
+	text-align: center;
+}
+
+
+
+
+
 
 #skills {
-	background-color: beige;
+	/*background-color: beige;*/
 	/*background-image: url(http://www.publicdomainpictures.net/pictures/50000/velka/green-textile-background-1371017125Coe.jpg);*/
 	/*background-image: url(https://c1.staticflickr.com/5/4022/4289809947_06ffd6b30b_b.jpg);*/
 	/*background-image: url(https://c1.staticflickr.com/9/8502/8413962190_cd5535351b_b.jpg);*/
 	/*background-image: url(http://www.publicdomainpictures.net/pictures/160000/nahled/arriere-plan-vert-texture.jpg);*/
-	padding-left: 8%;
+	/*padding-left: 8%;*/
 	/*width: 100%;*/
 /*	width: 580px;
 	height: 580px;*/
-	border-radius: 200%;
-	position: relative;
-	top: -60px;
-	border: 6px double lightblue;
-	/*opacity: .7;*/
-	 content: "";
+	/*border-radius: 200%;*/
+/*	position: relative;
+	top: -60px;*/
+	/*border: 6px double lightblue;*/
+/*	 content: "";
     display: block;
     width: 100%;
     height:0;
-    padding-bottom: 100%;
+    padding-bottom: 100%;*/
 }
-.brand-logo {
-	margin-left: 3%;
-}
-
+/*kjh*/
 /*kjh*/
 /* entire container, keeps perspective */
 
@@ -190,25 +222,3 @@ nav {
 	height: 50px;
 	width: 50px;
 }*/
-#modal {
-	height: 400px;
-	width: 400px;
-	border-radius: 200%;
-	position: relative;
-	top: 430px;
-	left: 440px;
-}
-#modalImage {
-	height: 400px;
-	width: 400px;
-	border-radius: 200%;
-	position: relative;
-	right: 30px;
-}
-#modal1 {
-	height: 400px;
-	width: 400px;
-	border-radius: 200%;
-	text-align: center;
-}
-/*kjh*/
