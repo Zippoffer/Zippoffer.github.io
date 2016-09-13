@@ -1,6 +1,9 @@
 body {
 	/*width: 700px;*/
-	background-color: #F5AA5D;
+	/*background-color: #F5AA5D;*/
+	/*background-color: #263238;*/
+	/*background-image: url(../imgs/darktexture.jpg);*/
+	background-image: url(../imgs/red.jpg);
 	/*background-image: url("http://wallpapersrang.com/wp-content/uploads/2016/06/binary-hd-cyan-computer-wallpapers-desktop-backgro.png")*/
 }
 
@@ -31,39 +34,16 @@ span {
 #barwars {
 	box-shadow: 8px 12px 32px black;
 }
-/*#photo {
-	width: 260px;
-}*/
 
-/*#top {
-width: 500px;
-height: 100%;
-background: none;
-}*/
-
-/*#par {
-	height: 80px;
-	width: 100%;
-}*/
-
-/*#middle {
-	padding-left: 12%;
-	width: 800px;
-	position: relative;
-	left: 400px;
-	background: none;
-}*/
-
-/*#me {
-	height: 600px;
-	width: 500px;
-	margin-bottom: 6%;
-}*/
 nav {
-	background-color: olive;
+	/*background-color: olive;*/
+	background-image: url(../imgs/darktexture.jpg);
+	/*background-image: url(http://www.publicdomainpictures.net/pictures/30000/velka/burnt-wood-texture.jpg);*/
 	/*background: none;*/
 }
-
+footer {
+	background-image: url(../imgs/darktexture.jpg);
+}
 .brand-logo {
 	position: relative;
 	top: -120px;
@@ -99,7 +79,11 @@ nav {
 	text-align: center;
 }
 
-
+#creek {
+	height: 200px;
+	width: 200px;
+	border-radius: 200%;
+}
 
 
 
