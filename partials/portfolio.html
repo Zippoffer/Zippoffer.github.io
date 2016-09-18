@@ -18,14 +18,30 @@
 </head>
 
 
-<body>
+<body class="portfolioPage">
 
  <nav>
     <div class="nav-wrapper">
+                                         <!-- side nav -->
+ <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <img id="creek" class="background" src="../imgs/IMG_0226.jpg" height="160" width="100%" >
+      <a href="#!user"><img class="circle" src="../imgs/IMG_0737.jpg" height="250" width="200"></a>
+      <a href="#!name"><span class="white-text name">Chris Hill</span></a>
+      <a href="#!email"><span class="white-text email">mailto:thorsdaddy77@gmail.com</span></a>
+    </div></li>
+    <li><a href="https://www.linkedin.com/in/zippoffer">linked in</a></li>
+    <!-- <li><a href="#!">Second Link</a></li> -->
+    <li><div class="divider"></div></li>
+    <li><a href="../index.html"><span>Home</span></a></li>
+    <li><a href="../partials/contact.html"><span>contact</span></a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                                      <!-- side nav    -->
       <!-- <a href="#" class="brand-logo">my site</a> -->
       <span>check out my work!</span>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="../index.html">index</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
@@ -37,7 +53,7 @@
 
 
 
-<div id="skills" class="container">
+<div id="work" class="container">
             <div class="row">
               <div class="col l12 s12">
                 <!-- <h5 class="white-text">Footer Content</h5> -->
@@ -45,17 +61,20 @@
               </div>
               <!-- <div class="col l12 offset-l2 s12"> -->
                 <!-- <h5 class="white-text">Skills</h5> -->
-                      <ul id="logos" class="">
+                      <ul id="projects" class="container">
 
-<div class="col 3 offset-4 s3">
-                              <li><a  class="grey-text text-lighten-3" href="https://peaceful-retreat-29195.herokuapp.com/"><img id="herokuapp" src="../imgs/Screen%20Shot%202016-09-10%20at%2012.25.54%20AM.png" alt="herokuapp" height="600" width="790"></a>
+			<div class="col 3 offset-4 s3">
+						<div class="row">
+                              <li><a  class="grey-text text-lighten-3" href="https://peaceful-retreat-29195.herokuapp.com/"><img id="herokuapp" src="../imgs/Screen%20Shot%202016-09-10%20at%2012.25.54%20AM.png" alt="herokuapp" ></a>
                               </li>
-
-                              <li><a class="grey-text text-lighten-3" href="https://comicsapp-db242.firebaseapp.com/"><img id="comicapp" src="../imgs/Screen%20Shot%202016-09-11%20at%2012.20.56%20AM.png" alt="comicapp" height="600" width="790"></a></li>
-
-                              <li><a class="grey-text text-lighten-3" href="https://github.com/Zippoffer/gauntlet-ironmen"><img id="barwars" src="../imgs/Screen%20Shot%202016-07-08%20at%203.32.27%20PM.jpg" alt="barwars" height="600" width="790"></a></li>
-
-                          </div>
+						</div>                              
+						<div class="row">
+                              <li><a class="grey-text text-lighten-3" href="https://comicsapp-db242.firebaseapp.com/"><img id="comicapp" src="../imgs/Screen%20Shot%202016-09-11%20at%2012.20.56%20AM.png" alt="comicapp" ></a></li>
+						</div>
+						<div class="row">
+                              <li><a class="grey-text text-lighten-3" href="https://github.com/Zippoffer/gauntlet-ironmen"><img id="barwars" src="../imgs/Screen%20Shot%202016-07-08%20at%203.32.27%20PM.jpg" alt="barwars" ></a></li>
+						</div>
+       </div>
 
                       </ul>
 
@@ -94,7 +113,7 @@
 
   <script src="../app/controllers/parallax.js"></script>
   <script src="../app/controllers/modal.js"></script>
-
+  <script src="../app/controllers/nav.js"></script>
 
 
 </body>

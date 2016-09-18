@@ -1,17 +1,30 @@
-body {
-	/*width: 700px;*/
-	/*background-color: #F5AA5D;*/
-	/*background-color: #263238;*/
-	/*background-image: url(../imgs/darktexture.jpg);*/
-	background-image: url(../imgs/red.jpg);
-	/*background-image: url("http://wallpapersrang.com/wp-content/uploads/2016/06/binary-hd-cyan-computer-wallpapers-desktop-backgro.png")*/
+
+.portfolioPage {
+	background-color: darkred;
+}
+.contactPage {
+	background-color: black;
+}
+.contactDiv {
+
+		background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
+		background-size:80% 700px;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+}
+.homePage {
+	background-color: black;
 }
 
 #logos	{
 	display: inline-block;
-	padding-top: 2%;
+	padding-top: 53%;
+	position:center;
 }
-
+#projects {
+	display: inline-block;
+	position:center;
+}
 li {
 	padding-left: 100px;
 	padding-top: 12%;
@@ -27,17 +40,26 @@ span {
 }
 #herokuapp {
 	box-shadow: 8px 12px 32px black;
+	height:400px;
+	width:590px;
+	/*float: left;*/
 }
 #comicapp {
 	box-shadow: 8px 12px 32px black;
+	height:400px;
+	width:590px;
+	/*float: right;*/
 }
 #barwars {
 	box-shadow: 8px 12px 32px black;
+	height:400px;
+	width:590px;
+	/*float: left;*/
 }
 
 nav {
-	/*background-color: olive;*/
-	background-image: url(../imgs/darktexture.jpg);
+	background-color: black;
+	/*background-image: url(../imgs/darktexture.jpg);*/
 	/*background-image: url(http://www.publicdomainpictures.net/pictures/30000/velka/burnt-wood-texture.jpg);*/
 	/*background: none;*/
 }
@@ -64,17 +86,17 @@ footer {
 #modalImage {
 
 	height: 400px;
-	width: 350px;
+	width: 360px;
 	border-radius: 200%;
 	position: relative;
-	right: 30px;
+	right: 32px;
 	bottom: 22px;
 }
 #modal1 {
 
 	background-color: wheat;
-	height: 500px;
-	width: 500px;
+	height: 530px;
+	width: 530px;
 	border-radius: 200%;
 	text-align: center;
 }
@@ -86,7 +108,15 @@ footer {
 }
 
 
-
-
-
+#skills {
+	/*margin-top: 7%;*/
+	background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
+	background-size: 1000px 100%;
+}
+.contactNav {
+	margin-bottom: 3%;
+}
+#par {
+	height: 200px;
+}
 
