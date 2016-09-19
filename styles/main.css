@@ -1,6 +1,10 @@
 
 .portfolioPage {
-	background-color: darkred;
+	/*background-color: darkred;*/
+	background-image: url(https://c1.staticflickr.com/3/2099/2020061074_1dd7cddcdd_b.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 .contactPage {
 	background-color: black;
@@ -22,12 +26,18 @@
 	position:center;
 }
 #projects {
-	display: inline-block;
-	position:center;
+	display: inline;
+	position:relative;
+	left: 123px;
 }
 li {
 	padding-left: 100px;
 	padding-top: 12%;
+}
+
+.liPort {
+	position:relative;
+	right: 163px;
 }
 
 .logo {
@@ -40,23 +50,41 @@ span {
 }
 #herokuapp {
 	box-shadow: 8px 12px 32px black;
-	height:400px;
-	width:590px;
-	/*float: left;*/
+	height:250px;
+	width:330px;
 }
 #comicapp {
 	box-shadow: 8px 12px 32px black;
-	height:400px;
-	width:590px;
+	height:250px;
+	width:330px;
 	/*float: right;*/
 }
 #barwars {
 	box-shadow: 8px 12px 32px black;
-	height:400px;
-	width:590px;
+	height:250px;
+	width:330px;
 	/*float: left;*/
 }
-
+#chatty {
+	box-shadow: 8px 12px 32px black;
+	height:250px;
+	width:330px;
+}
+#robotFighter {
+	box-shadow: 8px 12px 32px black;
+	height:250px;
+	width:330px;
+}
+#carLot {
+	box-shadow: 8px 12px 32px black;
+	height:250px;
+	width:330px;
+}
+#wysiwyg {
+	box-shadow: 8px 12px 32px black;
+	height:250px;
+	width:330px;
+}
 nav {
 	background-color: black;
 	/*background-image: url(../imgs/darktexture.jpg);*/
