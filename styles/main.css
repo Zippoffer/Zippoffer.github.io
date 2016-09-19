@@ -1,7 +1,7 @@
 
 .portfolioPage {
 	/*background-color: darkred;*/
-	background-image: url(https://c1.staticflickr.com/3/2099/2020061074_1dd7cddcdd_b.jpg);
+	background-image: url(../imgs/ocean.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -87,9 +87,13 @@ span {
 }
 nav {
 	background-color: black;
+	border-bottom: 1px solid white;
 	/*background-image: url(../imgs/darktexture.jpg);*/
 	/*background-image: url(http://www.publicdomainpictures.net/pictures/30000/velka/burnt-wood-texture.jpg);*/
 	/*background: none;*/
+}
+.side-nav {
+	background-color: black;
 }
 footer {
 	background-image: url(../imgs/darktexture.jpg);
