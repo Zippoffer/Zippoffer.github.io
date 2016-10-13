@@ -1,6 +1,5 @@
 
 .portfolioPage {
-	/*background-color: darkred;*/
 	background-image: url(../imgs/ocean.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -10,11 +9,10 @@
 	background-color: black;
 }
 .contactDiv {
-
-		background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
-		background-size:80% 700px;
-		background-position: center bottom;
-		background-repeat: no-repeat;
+	background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
+	background-size:80% 700px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 }
 .homePage {
 	background-color: black;
@@ -23,7 +21,8 @@
 #logos	{
 	display: inline-block;
 	padding-top: 53%;
-	position:center;
+	position:relative;
+	left: 49px;
 }
 #projects {
 	display: inline;
@@ -46,7 +45,6 @@ li {
 }
 span {
 	display: inline;
-	/*text-align: center;*/
 }
 #herokuapp {
 	box-shadow: 8px 12px 32px black;
@@ -57,13 +55,11 @@ span {
 	box-shadow: 8px 12px 32px black;
 	height:250px;
 	width:330px;
-	/*float: right;*/
 }
 #barwars {
 	box-shadow: 8px 12px 32px black;
 	height:250px;
 	width:330px;
-	/*float: left;*/
 }
 #chatty {
 	box-shadow: 8px 12px 32px black;
@@ -85,19 +81,20 @@ span {
 	height:250px;
 	width:330px;
 }
+
 nav {
 	background-color: black;
 	border-bottom: 1px solid white;
-	/*background-image: url(../imgs/darktexture.jpg);*/
-	/*background-image: url(http://www.publicdomainpictures.net/pictures/30000/velka/burnt-wood-texture.jpg);*/
-	/*background: none;*/
 }
+
 .side-nav {
 	background-color: black;
 }
+
 footer {
 	background-image: url(../imgs/darktexture.jpg);
 }
+
 .brand-logo {
 	position: relative;
 	top: -120px;
@@ -106,26 +103,22 @@ footer {
 
 #modal {
 	margin: 4% 0 4% 33%;
-	/*height: 400px;*/
-	height: 350px;
-	width: 350px;
-	/*width: 400px;*/
+	height: 150px;
+	width: 150px;
 	border-radius: 200%;
-/*	position: relative;
-	top: 70px;
-	left: 440px;*/
 }
-#modalImage {
 
-	height: 400px;
-	width: 360px;
+#modalImage {
+	height: 200px;
+	width: 160px;
 	border-radius: 200%;
 	position: relative;
 	right: 32px;
 	bottom: 22px;
+	object-fit: fill;
 }
-#modal1 {
 
+#modal1 {
 	background-color: wheat;
 	height: 530px;
 	width: 530px;
@@ -141,14 +134,74 @@ footer {
 
 
 #skills {
-	/*margin-top: 7%;*/
 	background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
 	background-size: 1000px 100%;
 }
+
 .contactNav {
 	margin-bottom: 3%;
 }
+
 #par {
-	height: 200px;
+	/*height: 200px;*/
+	height: 400px;
 }
+.banner {
+	text-align: center;
+	position: relative;
+	top: 220px;
+	left: 110px;
+	font-size: 4vw;
+	font-family: slackey;
+	color: red;
+}
+
+	/*cards*/
+
+.card {
+	margin-top: 23%;
+	margin-left: 10%;
+	position: relative;
+	right: 120px;
+	/*max-width: 100%;*/
+	max-width: 400px;
+}
+
+.activator {
+height: 240px;
+}
+.card-content {
+	background-color: black;
+}
+.bioCardContent {
+	background-color: black;
+}
+.bio {
+	color: white;
+	background-color: black;
+	max-width: 600px;
+	float: right;
+	margin-right: 13%;
+	margin-top: 12%;
+}
+#bio {
+	max-width: 600px;
+}
+.bioImage {
+	height: 430px;
+	max-width: 330px;
+	margin: 3% 2% 3% 12%;
+}
+#project {
+	color: white;
+	position: relative;
+	left: 33px;
+}
+#contact {
+	color: white;
+	position: relative;
+	left: 33px;
+}
+
+
 
