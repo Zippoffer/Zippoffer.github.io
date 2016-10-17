@@ -190,6 +190,7 @@ height: 240px;
 .bioImage {
 	height: 430px;
 	max-width: 330px;
+	border-radius: 200%;
 	margin: 3% 2% 3% 12%;
 }
 #project {
