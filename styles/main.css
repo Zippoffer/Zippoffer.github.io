@@ -179,19 +179,23 @@ height: 240px;
 .bio {
 	color: white;
 	background-color: black;
-	max-width: 600px;
+	max-width: 400px;
 	float: right;
-	margin-right: 13%;
+	margin-right: 6%;
+	margin-left: 6%;
 	margin-top: 12%;
 }
 #bio {
 	max-width: 600px;
 }
+.info {
+	/*max-width: 50%;*/
+}
 .bioImage {
 	height: 430px;
 	max-width: 330px;
 	border-radius: 200%;
-	margin: 3% 2% 3% 12%;
+	margin: 3% 0% 3% 0%;
 }
 #project {
 	color: white;
