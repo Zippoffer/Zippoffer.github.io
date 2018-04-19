@@ -134,7 +134,8 @@ footer {
 
 
 #skills {
-	background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg);
+	/* background-image: url(../imgs/hintergrund-tapete-1454259975N2T.jpg); */
+	background-image: url(../imgs/skies.jpg);
 	background-size: 1000px 100%;
 }
 
@@ -162,7 +163,7 @@ footer {
 	margin-top: 23%;
 	margin-left: 10%;
 	margin-right: 10%;
-	position: relative;
+	/* position: relative; */
 	/* right: 3px; */
 	/*max-width: 100%;*/
 	max-width: 380px;
