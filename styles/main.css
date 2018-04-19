@@ -193,8 +193,8 @@ height: 240px;
 	/*max-width: 50%;*/
 }
 .bioImage {
-	height: 430px;
-	max-width: 330px;
+	height: 300px;
+	width: 300px;
 	border-radius: 200%;
 	margin: 3% 0% 3% 0%;
 }
